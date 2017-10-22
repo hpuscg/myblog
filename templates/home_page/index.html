@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title_files %}
+    <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+{% endblock title_files %}
+{% block body %}
+    <div>最新文章</div>
+    <div class="new_intro">
+        <div class="new_article">
+            <h2>文章标题</h2>
+            <h3>文章副标题</h3>
+            <p>文章内容</p>
+        </div>
+    </div>
+{% endblock body %}

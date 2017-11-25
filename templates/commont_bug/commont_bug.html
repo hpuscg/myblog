@@ -1,1 +1,26 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block header_title %}
+    常见bug
+{% endblock header_title %}
 
+
+{% block body %}
+    <div class="doc_article">
+        <h2>文章标题</h2>
+        <h3>文章副标题</h3>
+        <p>文章内容</p>
+    </div>
+    <div class="doc_intro detail_page">
+        <div class="doc_intro_title detail_page_title">
+            <div class="left detail_page_left">常见bug</div>
+            <div class="right detail_page_right"><a href="../technology/technology.html">更多&gt;&gt;</a></div>
+        </div>
+        <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">1</a></li>
+        </ul>
+    </div>
+{% endblock body %}
